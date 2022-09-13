@@ -11,3 +11,5 @@ Golden.staticFunction = function() {
     console.log('I am static too')
     console.log(this === Golden);
 }
+
+module.exports = Golden
